@@ -1,7 +1,6 @@
 package tests;
 
 import com.codeborne.selenide.Condition;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
@@ -16,7 +15,6 @@ public class WebDriverTest extends TestBase {
     private final String BASE_URL = "https://github.com";
 
     @Test
-    @DisplayName("Тест с селенидовским логгером")
     public void testIssueSearch() {
 
         open(BASE_URL);
