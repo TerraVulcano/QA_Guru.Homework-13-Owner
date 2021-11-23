@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class WebDriverTest extends TestBase {
 
     private final static String REPOSITORY = "eroshenkoam/allure-example";
-    private final static int ISSUE_NUMBER = 65;
+   private final static int ISSUE_NUMBER = 65;
     private final String BASE_URL = "https://github.com";
 
     @Test

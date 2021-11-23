@@ -6,7 +6,7 @@ import static org.aeonbits.owner.Config.LoadType.MERGE;
 
 @Config.LoadPolicy(MERGE)
 @Config.Sources({"system:properties",
-        "classpath:${webdriver}.properties",
+        "classpath:webdriver.properties",
         "classpath:local.properties"})
 public interface WebDriverConfig extends Config {
     @DefaultValue("false")
